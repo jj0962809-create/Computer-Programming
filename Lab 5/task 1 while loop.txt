@@ -1,0 +1,38 @@
+// Name: M.Junaid
+// Registration Number: BF25NWELE0695
+// Instructor: Rizwan Sir
+// Department: Electrical and Computing (AI)
+
+// Program: Print numbers from 1 to 10 using a while loop
+
+#include <iostream>   
+// iostream library include ki gayi hai taake hum input aur output operations 
+// jaise cout aur endl use kar saken
+
+using namespace std;  
+// std namespace use kiya gaya hai taake hame cout aur endl ke sath std:: 
+// likhne ki zaroorat na pade
+
+int main()            
+// main() program ka starting point hota hai, execution yahan se start hoti hai
+{
+    int i = 1;        
+    // integer type ka variable 'i' declare kiya aur uski initial value 1 rakhi
+    // ye variable loop control karne ke liye use hoga
+
+    while(i <= 10)    
+    // while loop tab tak run karega jab tak condition true rahe
+    // yahan condition hai ke i ki value 10 se chhoti ya barabar ho
+    {
+        cout << i << endl;   
+        // current value of i ko screen par print karta hai
+        // endl next line par cursor ko le jata hai
+
+        i++;                 
+        // i++ increment operator hai jo i ki value ko 1 se increase karta hai
+        // har iteration ke baad value 1 se barh jati hai
+    }
+
+    return 0;   
+    // return 0 ka matlab program successfully execute ho kar end ho gaya
+}
